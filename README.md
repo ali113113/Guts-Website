@@ -16,4 +16,4 @@
 ## 🚀 نحوه اجرای پروژه  
 ۱. ریپازیتوری رو کلون کنید:  
    ```bash
-   https://github.com/ali113113/Guts-Website.git
+[   https://github.com/ali113113/Guts-Website.git](https://ali113113.github.io/Guts-Website/)
