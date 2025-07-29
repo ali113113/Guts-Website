@@ -1,0 +1,160 @@
+     *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            transition: transform 0.2s ease-in-out;
+        }
+        body{
+            background-image: url(image/bg.jpg);
+            background-size:cover;
+            background-position: center ;
+            background-repeat: no-repeat; 
+            background-attachment: fixed;
+            color: rgb(255,255, 255); 
+            background-color: black;
+      
+        }
+        .continer{
+            display: flex;
+            flex-direction: column;
+            padding:2em;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            border: solid 2px rgb(255, 255, 255);
+            border-radius: 8px;
+            padding: 1.5em;
+            background-color: rgba(0,0, 0,0.5);
+        }
+        .logo{
+            display: flex;
+            align-items: center;
+            gap: 1em;
+        }
+        .logo img {
+            max-width: 4em;
+            border: solid white 3px;
+            border-radius: 20%;
+        }
+        .navbar{
+          
+        }
+        .nav-list{
+            display: flex;
+            gap: 1em;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+        .nav-item a{
+            text-decoration: none;
+            color: white;
+            border: solid 2px rgb(255, 255, 255);
+            padding: 1em;
+            display: inline-block;
+            border-radius: 5px;
+        }
+        .nav-item a:hover{
+            background-color: rgba(255,255,255,0.3);
+            transform: scale(1.05);
+        }
+           .nav-item a:active{
+            background-color: rgba(255,255,255,0.5);
+        }
+        main{
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+            justify-content: center;
+            align-items: center;
+            margin-top: 1em;
+        }
+        .section-hero{
+            display: flex;
+            justify-content: space-between;
+        }
+        .hero{
+            width: 97vw;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1em;
+            border: solid white 2px;
+            border-radius: 5px;
+            padding: 2em;
+            background-color: rgba(0,0, 0,0.5);
+        }
+        .story{
+            padding: 1.5em; 
+            line-height: 1.4;
+            font-size: 1.2em;
+            max-width: 70ch;
+        }
+        .img-1-div{
+             border: 2px solid white;
+            border-radius: 5px;
+            width: 50em;
+        }
+        .guts-img1{
+           width: 100%;
+        }
+        .section-crad{
+            width: 97vw;
+        }
+        .guts-wepeans{
+            background-color: rgba(0,0, 0,0.5);     
+            border: solid white 2px;
+            border-radius: 5px;
+            max-width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1em;
+            justify-content: space-evenly;
+            align-items: stretch;
+            padding: 1em;
+        }
+        .crad-1 , .crad-2 , .crad-3 , .crad-4{
+               
+            background-color: rgba(0,0, 0,0.5);     
+            border: solid white 2px;
+            border-radius: 5px;
+            flex: 1 1 25em;
+            min-width: 18em;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            padding: 1em;
+            gap: 1em;
+        }
+        .item{
+            font-weight: bold;
+            font-size: 1.5em;
+            text-decoration: underline;
+        }
+        .dec{
+            max-width: 40ch;
+            font-size: 1.2em;
+            line-height: 1.3em;
+            order: 3;
+        }
+        .card-img{
+            width: 100%;
+            order: 2;
+            margin-bottom: 2EM;
+            max-width: 30em;
+            height: 50%;
+            max-height: 40em;
+            border: solid white 2px;
+            border-radius: 5px;
+        }
+        footer{
+            background-color: rgba(0,0, 0,0.5);   
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 10vh;
+        }
