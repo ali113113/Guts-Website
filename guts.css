@@ -39,6 +39,15 @@
             border: solid white 3px;
             border-radius: 20%;
         }
+        /* دکمه همبرگر - پیش‌فرض مخفی است */
+        .hamburger-btn {
+          display: none; /* در دسکتاپ نمایش داده نمی‌شود */
+          background: none;
+          border: none;
+          color: white;
+          font-size: 2rem;
+          cursor: pointer;
+        }
         .navbar{
           
         }
@@ -158,3 +167,24 @@
             justify-content: center;
             height: 10vh;
         }
+
+
+
+/* استایل در موبایل (صفحه کوچکتر از 768px) */
+@media (max-width: 768px) {
+  .hamburger-btn {
+    display: block; /* دکمه همبرگر نمایش داده می‌شود */
+  }
+  
+  .navbar {
+    display: none; /* منوی اصلی مخفی می‌شود */
+    width: 100%;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.9);
+  }
+  
+  /* حالت فعال (وقتی منو باز است) */
+  .navbar.active {
+    display: flex;
+  }
+}
