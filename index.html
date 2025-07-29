@@ -68,5 +68,13 @@
         </main>
         <footer>Guts Website ©</footer>
     </div>
+<script>
+  const hamburgerBtn = document.querySelector('.hamburger-btn');
+  const navbar = document.querySelector('.navbar');
+  
+  hamburgerBtn.addEventListener('click', () => {
+    navbar.classList.toggle('active'); // با هر کلیک منو باز/بسته می‌شود
+  });
+</script>
 </body>
 </html>
