@@ -1,12 +1,21 @@
-# Guts Website - Berserk Tribute  
-A responsive website about Guts, built with:  
-- HTML5  
-- CSS3 (Flexbox + Media Queries)  
+# 🗡️ Guts Website - Berserk Tribute  
 
-## Features  
-✔️ Interactive navbar  
-✔️ Responsive cards  
-✔️ Hover effects  
+![Preview](./preview.jpg) *<!-- اگه اسکرین‌شات داری، لینک عکس رو اینجا بذار -->*  
 
-## How to View  
-Just open `index.html` in your browser! 
+یک وبسایت ریسپانسیو درباره **گاتس** (شخصیت اصلی مانگای Berserk) که با HTML و CSS خالص طراحی شده.  
+
+## 🛠️ فناوری‌های استفاده شده  
+- **HTML5** (ساختار سمانتیک)  
+- **CSS3** (Flexbox + Media Queries برای ریسپانسیو)  
+- **افکت‌های تعاملی** (هاور، ترنزیشن)  
+
+## ✨ ویژگی‌های کلیدی  
+- ✅ نوار ناوبری (Navbar) تعاملی  
+- ✅ کارت‌های ریسپانسیو با Flexbox  
+- ✅ طراحی سازگار با موبایل و تبلت (Media Queries)  
+- ✅ افکت‌های بصری جذاب  
+
+## 🚀 نحوه اجرای پروژه  
+۱. ریپازیتوری رو کلون کنید:  
+   ```bash
+   git clone https://github.com/username/Guts-Website.git
